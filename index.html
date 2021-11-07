@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Webプログラミング　課題2
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>日本大学文理学部情報科学科 Webプログラミングの演習課題　<br>5420031　樋口佳亮</header>
+  <div class="cell">
+    <h1 class="tilte">h1,h2,h3,h4,h5,h6要素　</h1>
+    <dl classs="element">
+      <dt class="term">説明</dt>
+      <dd class="explain">h1,h2,h3,h4,h5,h6要素はセクションの見出しを表すために使う要素です。
+        これらの要素のセマンティクスとしての意味は「見出しとセクション」です。
+        これらの要素は名前に含まれる数字によってランクが決められています。数字が小さいほど描画される文字は大きくなります。よってh1が一番ランクが高く文字のサイズは一番大きくなります。逆にh6はこれらの要素の中で一番ランクが低く文字のサイズは一番小さくなります。</dd>
+
+      <dt class="term">マークアップ例（HTMLコード）</dt>
+      <dd  class="example">
+        &lt;h1&gt;これはh1要素です。&lt;/h1&gt;<br>
+        &lt;h2&gt;これはh2要素です。&lt;/h2&gt;<br>
+        &lt;h3&gt;これはh3要素です。&lt;/h3&gt;<br>
+        &lt;h4&gt;これはh4要素です。&lt;/h4&gt;<br>
+        &lt;h5&gt;これはh5要素です。&lt;/h5&gt;<br>
+        &lt;h6&gt;これはh6要素です。&lt;/h6&gt;
+              </dd>
+      <dt class="term">動作結果</dt>
+      <dd  class="result">
+        <h1>これはh1要素です。</h1>
+        <h2>これはh2要素です。</h2>
+        <h3>これはh3要素です。</h3>
+        <h4>これはh4要素です。</h4>
+        <h5>これはh5要素です。</h5>
+        <h6>これはh6要素です。</h6>
+      </dd>
+    </dl>
+  </div>
+  </div>
+
+  <div class="cell">
+    <h1 class="tilte">a要素　</h1>
+    <dl classs="element">
+      <dt class="term">説明</dt>
+      <dd class="explain">a要素は要素の内容に対してハイパーリンク（ハイパーテキストアンカー）を与えることができます。href属性で<abbr title="Uniform Resource Locator">URL</abbr>を与えることによって、内容をクリックした場合のその<abbr title="Uniform Resource Locator">URL</abbr>にアクセスすることができます。a要素がhref属性を持たない場合はその要素はプレースホルダーを表します。</dd>
+
+      <dt class="term">マークアップ例（HTMLコード）</dt>
+      <dd  class="example">
+        &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web&quot;&gt;この文章をクリックするとMDN Web Docdsへアクセスできます。&lt;/a&gt;
+              </dd>
+      <dt class="term">動作結果</dt>
+      <dd  class="result">
+        <a href="https://developer.mozilla.org/ja/docs/Web">この文章をクリックするとMDN Web Docdsへアクセスできます。</a>
+      </dd>
+    </dl>
+  </div>
+
+  <div class="cell">
+    <h1 class="tilte">abbr要素</h1>
+    <dl classs="element">
+      <dt class="term">説明</dt>
+      <dd class="explain">abbr要素は略語や頭文字を表すために使われる要素です。カーソルを合わせることで略語を表示することができます。オプションで略語を展開することもできます。title属性を利用することで略語の展開を指定できます。
+      </dd>
+
+      <dt class="term">マークアップ例（HTMLコード）</dt>
+      <dd  class="example">
+        &lt;abbr title=&quot;Uniform Resource Locator&quot;&gt;URL&lt;/abbr&gt;とはUniform Resource Locatorの略語です。<br>
+      この文書は&lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt;で作られています。
+              </dd>
+      <dt class="term">動作結果</dt>
+      <dd  class="result"> 
+      <abbr title="Uniform Resource Locator">URL</abbr>とはUniform Resource Locatorの略語です。<br>
+      この文書は<abbr title="HyperText Markup Language">HTML</abbr>で作られています。
+      </dd>
+    </dl>
+  </div>
+
+  <div class="literature">
+    <h2 class="tilte">参考文献</h2>
+    <div class="lit-contents">
+      <a href="https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">HTML Standard The h1,h2,h3,h4,h5 and h6 elements</a><br>
+      <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element">HTML Standard The a element</a><br>
+      <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element">HTML Standard The abbr element</a>
+    </div>
+  </div>
+</body>
+</html>

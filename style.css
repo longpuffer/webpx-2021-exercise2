@@ -1,0 +1,30 @@
+
+header{
+  font-size: 28px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+
+.cell,.literature{
+  background-color: #87ceeb;
+  border: solid;
+  border-color: #1e90ff;
+  margin:10px 0px;
+}
+
+.term{
+  font-size:24px;
+}
+
+.example,.explain,.result{
+  margin:0px 100px 0px 50px;
+}
+
+.lit-contents{
+  margin:0px 100px 0px 20px;
+}
+
+.tilte{
+  color:#0000cd;
+}
